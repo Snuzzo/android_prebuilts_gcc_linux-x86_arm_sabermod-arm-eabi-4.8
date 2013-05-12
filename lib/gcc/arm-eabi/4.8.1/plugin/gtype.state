@@ -4,7 +4,7 @@
 ;;; Don't parse this file wihout knowing GCC gengtype internals.
 ;;; This file should be parsed by the same gengtype which wrote it.
 
-(!version  "4.8.1 20130509 (prerelease)")
+(!version  "4.8.1 20130512 (prerelease)")
 
 (!srcdir  "../.././../gcc/gcc-SaberMod/gcc")
 
@@ -6177,58 +6177,58 @@ nil 511 nil )
 (!type struct 255 
 (!type already_seen 254)
  gc_pointed_to "constant_descriptor_rtx"
-(!srcfileloc  "varasm.c" 3374)
+(!srcfileloc  "varasm.c" 3378)
 
 (!fields 10 
 (!pair  "next"
 (!type already_seen 254)
 
-(!srcfileloc  "varasm.c" 3364)
+(!srcfileloc  "varasm.c" 3368)
 nil )
 (!pair  "mem"
 (!type already_seen 136)
 
-(!srcfileloc  "varasm.c" 3365)
+(!srcfileloc  "varasm.c" 3369)
 nil )
 (!pair  "sym"
 (!type already_seen 136)
 
-(!srcfileloc  "varasm.c" 3366)
+(!srcfileloc  "varasm.c" 3370)
 nil )
 (!pair  "constant"
 (!type already_seen 136)
 
-(!srcfileloc  "varasm.c" 3367)
+(!srcfileloc  "varasm.c" 3371)
 nil )
 (!pair  "offset"
 (!type already_seen 9)
 
-(!srcfileloc  "varasm.c" 3368)
+(!srcfileloc  "varasm.c" 3372)
 nil )
 (!pair  "hash"
 (!type already_seen 9)
 
-(!srcfileloc  "varasm.c" 3369)
+(!srcfileloc  "varasm.c" 3373)
 nil )
 (!pair  "mode"
 (!type already_seen 9)
 
-(!srcfileloc  "varasm.c" 3370)
+(!srcfileloc  "varasm.c" 3374)
 nil )
 (!pair  "align"
 (!type already_seen 9)
 
-(!srcfileloc  "varasm.c" 3371)
+(!srcfileloc  "varasm.c" 3375)
 nil )
 (!pair  "labelno"
 (!type already_seen 9)
 
-(!srcfileloc  "varasm.c" 3372)
+(!srcfileloc  "varasm.c" 3376)
 nil )
 (!pair  "mark"
 (!type already_seen 9)
 
-(!srcfileloc  "varasm.c" 3373)
+(!srcfileloc  "varasm.c" 3377)
 nil ))
 
 (!options 
@@ -20927,7 +20927,7 @@ nil 0 nil )
 nil 0 nil )
 
 (!type user_struct 958 nil  gc_unused "vec<ipa_parm_adjustment_t>"
-(!srcfileloc  "ipa-prop.h" 590)
+(!srcfileloc  "ipa-prop.h" 592)
 
 (!fields 1 
 (!pair  "ipa_parm_adjustment_t"
@@ -20935,7 +20935,7 @@ nil 0 nil )
 (!fields 0 )
 nil 0 nil )
 
-(!srcfileloc  "ipa-prop.h" 590)
+(!srcfileloc  "ipa-prop.h" 592)
 nil ))
 )
 
@@ -20944,17 +20944,17 @@ nil ))
 (!type already_seen 960)
 )
  gc_pointed_to "vec<ipa_edge_args_t,va_gc>"
-(!srcfileloc  "ipa-prop.h" 435)
+(!srcfileloc  "ipa-prop.h" 437)
 
 (!fields 2 
 (!pair  "va_gc"
 (!type already_seen 3)
 
-(!srcfileloc  "ipa-prop.h" 435)
+(!srcfileloc  "ipa-prop.h" 437)
 nil )
 (!pair  "ipa_edge_args_t"
 (!type struct 962 nil  gc_used "ipa_edge_args"
-(!srcfileloc  "ipa-prop.h" 402)
+(!srcfileloc  "ipa-prop.h" 404)
 
 (!fields 1 
 (!pair  "jump_functions"
@@ -20962,13 +20962,13 @@ nil )
 (!type user_struct 964 
 (!type already_seen 963)
  gc_pointed_to "vec<ipa_jump_func_t,va_gc>"
-(!srcfileloc  "ipa-prop.h" 401)
+(!srcfileloc  "ipa-prop.h" 403)
 
 (!fields 2 
 (!pair  "va_gc"
 (!type already_seen 3)
 
-(!srcfileloc  "ipa-prop.h" 401)
+(!srcfileloc  "ipa-prop.h" 403)
 nil )
 (!pair  "ipa_jump_func_t"
 (!type struct 965 nil  gc_used "ipa_jump_func"
@@ -21153,16 +21153,16 @@ nil 511 nil )
 ))
 nil 511 nil )
 
-(!srcfileloc  "ipa-prop.h" 401)
+(!srcfileloc  "ipa-prop.h" 403)
 nil ))
 )
 )
 
-(!srcfileloc  "ipa-prop.h" 401)
+(!srcfileloc  "ipa-prop.h" 403)
 nil ))
 nil 511 nil )
 
-(!srcfileloc  "ipa-prop.h" 435)
+(!srcfileloc  "ipa-prop.h" 437)
 nil ))
 )
 
@@ -21171,22 +21171,22 @@ nil ))
 (!type already_seen 975)
 )
  gc_pointed_to "vec<ipa_agg_replacement_value_p,va_gc>"
-(!srcfileloc  "ipa-prop.h" 433)
+(!srcfileloc  "ipa-prop.h" 435)
 
 (!fields 2 
 (!pair  "va_gc"
 (!type already_seen 3)
 
-(!srcfileloc  "ipa-prop.h" 433)
+(!srcfileloc  "ipa-prop.h" 435)
 nil )
 (!pair  "ipa_agg_replacement_value_p"
 (!type pointer 977 nil  gc_used
 (!type struct 978 
 (!type already_seen 977)
  gc_pointed_to "ipa_agg_replacement_value"
-(!srcfileloc  "ipa-prop.h" 389)
+(!srcfileloc  "ipa-prop.h" 391)
 
-(!fields 4 
+(!fields 5 
 (!pair  "next"
 (!type already_seen 977)
 
@@ -21206,11 +21206,16 @@ nil )
 (!type already_seen 9)
 
 (!srcfileloc  "ipa-prop.h" 388)
+nil )
+(!pair  "by_ref"
+(!type already_seen 9)
+
+(!srcfileloc  "ipa-prop.h" 390)
 nil ))
 nil 511 nil )
 )
 
-(!srcfileloc  "ipa-prop.h" 433)
+(!srcfileloc  "ipa-prop.h" 435)
 nil ))
 )
 
@@ -21694,11 +21699,11 @@ nil ))
 (!fields 0 )
 nil 0 nil )
 
-(!type struct 1056 nil  gc_unused "anonymous:../.././../gcc/gcc-SaberMod/gcc/varasm.c:4708"nil 
+(!type struct 1056 nil  gc_unused "anonymous:../.././../gcc/gcc-SaberMod/gcc/varasm.c:4712"nil 
 (!fields 0 )
 nil 0 nil )
 
-(!type struct 1057 nil  gc_unused "anonymous:../.././../gcc/gcc-SaberMod/gcc/varasm.c:4460"nil 
+(!type struct 1057 nil  gc_unused "anonymous:../.././../gcc/gcc-SaberMod/gcc/varasm.c:4464"nil 
 (!fields 0 )
 nil 0 nil )
 
@@ -23457,18 +23462,18 @@ nil )
 (!type struct 1251 
 (!type already_seen 1250)
  gc_pointed_to "rtx_constant_pool"
-(!srcfileloc  "varasm.c" 3361)
+(!srcfileloc  "varasm.c" 3365)
 
 (!fields 4 
 (!pair  "first"
 (!type already_seen 254)
 
-(!srcfileloc  "varasm.c" 3349)
+(!srcfileloc  "varasm.c" 3353)
 nil )
 (!pair  "last"
 (!type already_seen 254)
 
-(!srcfileloc  "varasm.c" 3350)
+(!srcfileloc  "varasm.c" 3354)
 nil )
 (!pair  "const_rtx_htab"
 (!type pointer 1252 nil  gc_used
@@ -23481,7 +23486,7 @@ nil )
 nil nil nil nil nil nil nil nil nil nil )
 )
 
-(!srcfileloc  "varasm.c" 3356)
+(!srcfileloc  "varasm.c" 3360)
 
 (!options 
 (!option param_is type 
@@ -23492,7 +23497,7 @@ nil nil nil nil nil nil nil nil nil nil )
 (!pair  "offset"
 (!type already_seen 9)
 
-(!srcfileloc  "varasm.c" 3360)
+(!srcfileloc  "varasm.c" 3364)
 nil ))
 nil 511 nil )
 )
@@ -26372,47 +26377,47 @@ nil )
 (!pair  "ipa_parm_adjustment_vec"
 (!type already_seen 958)
 
-(!srcfileloc  "ipa-prop.h" 590)
+(!srcfileloc  "ipa-prop.h" 592)
 nil )
 (!pair  "vec<ipa_parm_adjustment_t>"
 (!type already_seen 958)
 
-(!srcfileloc  "ipa-prop.h" 590)
+(!srcfileloc  "ipa-prop.h" 592)
 nil )
 (!pair  "ipa_parm_adjustment_t"
 (!type already_seen 959)
 
-(!srcfileloc  "ipa-prop.h" 588)
+(!srcfileloc  "ipa-prop.h" 590)
 nil )
 (!pair  "vec<ipa_edge_args_t,va_gc>"
 (!type already_seen 960)
 
-(!srcfileloc  "ipa-prop.h" 435)
+(!srcfileloc  "ipa-prop.h" 437)
 nil )
 (!pair  "vec<ipa_agg_replacement_value_p,va_gc>"
 (!type already_seen 975)
 
-(!srcfileloc  "ipa-prop.h" 433)
+(!srcfileloc  "ipa-prop.h" 435)
 nil )
 (!pair  "ipa_node_params_t"
 (!type already_seen 1190)
 
-(!srcfileloc  "ipa-prop.h" 426)
+(!srcfileloc  "ipa-prop.h" 428)
 nil )
 (!pair  "ipa_edge_args_t"
 (!type already_seen 962)
 
-(!srcfileloc  "ipa-prop.h" 402)
+(!srcfileloc  "ipa-prop.h" 404)
 nil )
 (!pair  "vec<ipa_jump_func_t,va_gc>"
 (!type already_seen 964)
 
-(!srcfileloc  "ipa-prop.h" 401)
+(!srcfileloc  "ipa-prop.h" 403)
 nil )
 (!pair  "ipa_agg_replacement_value_p"
 (!type already_seen 977)
 
-(!srcfileloc  "ipa-prop.h" 391)
+(!srcfileloc  "ipa-prop.h" 393)
 nil )
 (!pair  "ipa_param_descriptor_t"
 (!type already_seen 979)
@@ -26667,17 +26672,17 @@ nil )
 (!pair  "tm_alias_pair"
 (!type already_seen 1055)
 
-(!srcfileloc  "varasm.c" 5660)
+(!srcfileloc  "varasm.c" 5664)
 nil )
 (!pair  "oc_local_state"
 (!type already_seen 1056)
 
-(!srcfileloc  "varasm.c" 4732)
+(!srcfileloc  "varasm.c" 4736)
 nil )
 (!pair  "oc_outer_state"
 (!type already_seen 1057)
 
-(!srcfileloc  "varasm.c" 4463)
+(!srcfileloc  "varasm.c" 4467)
 nil )
 (!pair  "block_info"
 (!type already_seen 1068)
@@ -29548,7 +29553,7 @@ nil )
 (!pair  "the_parser"
 (!type already_seen 691)
 
-(!srcfileloc  "cp/parser.c" 28123)
+(!srcfileloc  "cp/parser.c" 28122)
 nil )
 (!pair  "lambda_scope_stack"
 (!type already_seen 686)
@@ -29636,7 +29641,7 @@ nil )
 (!pair  "last_error_tinst_level"
 (!type already_seen 722)
 
-(!srcfileloc  "cp/pt.c" 7920)
+(!srcfileloc  "cp/pt.c" 7925)
 nil )
 (!pair  "canonical_template_parms"
 (!type already_seen 45)
@@ -30325,12 +30330,12 @@ nil )
 (!pair  "ipa_edge_args_vector"
 (!type already_seen 961)
 
-(!srcfileloc  "ipa-prop.h" 435)
+(!srcfileloc  "ipa-prop.h" 437)
 nil )
 (!pair  "ipa_node_agg_replacements"
 (!type already_seen 976)
 
-(!srcfileloc  "ipa-prop.h" 433)
+(!srcfileloc  "ipa-prop.h" 435)
 nil )
 (!pair  "ipa_escaped_pt"
 (!type already_seen 322)
@@ -30649,17 +30654,17 @@ nil )
 (!pair  "elf_fini_array_section"
 (!type already_seen 245)
 
-(!srcfileloc  "varasm.c" 7428)
+(!srcfileloc  "varasm.c" 7430)
 nil )
 (!pair  "elf_init_array_section"
 (!type already_seen 245)
 
-(!srcfileloc  "varasm.c" 7427)
+(!srcfileloc  "varasm.c" 7429)
 nil )
 (!pair  "tm_clone_hash"
 (!type already_seen 1375)
 
-(!srcfileloc  "varasm.c" 5618)
+(!srcfileloc  "varasm.c" 5622)
 
 (!options 
 (!option param_is type 
@@ -30672,12 +30677,12 @@ nil )
 (!pair  "weakref_targets"
 (!type already_seen 5)
 
-(!srcfileloc  "varasm.c" 5308)
+(!srcfileloc  "varasm.c" 5312)
 nil )
 (!pair  "const_desc_htab"
 (!type already_seen 1377)
 
-(!srcfileloc  "varasm.c" 2668)
+(!srcfileloc  "varasm.c" 2672)
 
 (!options 
 (!option param_is type 
@@ -30688,17 +30693,17 @@ nil )
 (!pair  "initial_trampoline"
 (!type already_seen 136)
 
-(!srcfileloc  "varasm.c" 2379)
+(!srcfileloc  "varasm.c" 2383)
 nil )
 (!pair  "weak_decls"
 (!type already_seen 5)
 
-(!srcfileloc  "varasm.c" 2157)
+(!srcfileloc  "varasm.c" 2161)
 nil )
 (!pair  "pending_assemble_externals"
 (!type already_seen 5)
 
-(!srcfileloc  "varasm.c" 2087)
+(!srcfileloc  "varasm.c" 2091)
 nil )
 (!pair  "shared_constant_pool"
 (!type already_seen 1250)
